@@ -584,7 +584,7 @@
   var htmlEncodeContainer = $('<div />');
   function htmlEncode(value) {
     if (value) {
-      return htmlEncodeContainer.text(value).html();
+      return htmlEncodeContainer.text(value).php();
     } else {
       return '';
     }
@@ -610,7 +610,7 @@
   /**
     * Returns boolean indicates whether user has pressed an expected key combination.
     * @param object keyPressEvent: JavaScript event object, refer
-    *     http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
+    *     http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.php
     * @param object lookupList: expected key combinations, as in:
     *     [13, {which: 188, shiftKey: true}]
     */
