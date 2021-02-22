@@ -302,6 +302,12 @@
 							<li>
 								<a href="index.php" class="active"><i class="fa fa-tachometer" aria-hidden="true"></i> <span> Dashboard </span></a>
 							</li>
+							<li>
+               <a href="companies.php">
+                  <i class="fa fa-file-o" aria-hidden="true"></i>
+                  <span> Companies </span>
+               </a>
+            </li>
 							
 							<li><a href="all-pages-list.php"> <i class="fa fa-file-o" aria-hidden="true"></i> <span> All Pages </span>  </a></li>
 							<li><a href="all-landing-pages.php"> <i class="fa fa-rocket" aria-hidden="true"></i> <span> Landing Pages </span></a></li>
