@@ -300,14 +300,26 @@
 						<ul>
 							
 							<li>
-								<a href="index.php" class="active"><i class="fa fa-tachometer" aria-hidden="true"></i> <span> Dashboard </span></a>
+								<a href="index.php" class="active">
+									<i class="fa fa-tachometer" aria-hidden="true"></i>
+									<span> Dashboard </span>
+								</a>
+							</li>
+							<li class="submenu">
+								<a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i> <span> Dashboard </span> <span class="menu-arrow"></span></a>
+								<ul class="sub-menus"> 
+									<li><a href="index.php"> Deals Dashboard</a></li>	
+									<li><a href="projects-dashboard.php">Projects Dashboard</a></li>
+									<li><a href="leads-dashboard.php">Leads Dashboard</a></li>
+									
+								</ul>
 							</li>
 							<li>
-               <a href="companies.php">
-                  <i class="fa fa-file-o" aria-hidden="true"></i>
-                  <span> Companies </span>
-               </a>
-            </li>
+				               <a href="companies.php">
+				                  <i class="fa fa-file-o" aria-hidden="true"></i>
+				                  <span> Companies </span>
+				               </a>
+				            </li>
 							
 							<li><a href="all-pages-list.php"> <i class="fa fa-file-o" aria-hidden="true"></i> <span> All Pages </span>  </a></li>
 							<li><a href="all-landing-pages.php"> <i class="fa fa-rocket" aria-hidden="true"></i> <span> Landing Pages </span></a></li>
